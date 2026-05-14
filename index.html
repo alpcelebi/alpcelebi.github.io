@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Moonlit Echoes is a paid, ad-free iOS sleep sounds app with 50 calming sounds, white noise, nature ambience, favorites and a sleep timer.">
+  <title>Moonlit Echoes - Sleep Sounds & White Noise</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: radial-gradient(circle at 20% 20%, rgba(124, 58, 237, 0.35), transparent 34%),
+        radial-gradient(circle at 80% 28%, rgba(14, 165, 233, 0.28), transparent 32%),
+        linear-gradient(135deg, #080d1a 0%, #111936 100%);
+      color: #f8fafc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 20px;
+    }
+
+    main {
+      width: min(760px, 100%);
+      text-align: center;
+    }
+
+    .icon {
+      width: 92px;
+      height: 92px;
+      border-radius: 24px;
+      margin: 0 auto 24px;
+      display: grid;
+      place-items: center;
+      background: rgba(139, 92, 246, 0.18);
+      border: 1px solid rgba(196, 181, 253, 0.28);
+      font-size: 48px;
+    }
+
+    h1 {
+      font-size: clamp(2.4rem, 8vw, 4.5rem);
+      line-height: 1;
+      margin-bottom: 16px;
+      letter-spacing: 0;
+    }
+
+    .tagline {
+      color: #cbd5e1;
+      font-size: clamp(1.05rem, 3vw, 1.35rem);
+      line-height: 1.6;
+      max-width: 660px;
+      margin: 0 auto 28px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+      margin: 0 auto 32px;
+    }
+
+    .feature {
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      background: rgba(15, 23, 42, 0.72);
+      border-radius: 8px;
+      padding: 16px 14px;
+      color: #e2e8f0;
+      font-weight: 700;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      margin-bottom: 28px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 20px;
+      border-radius: 8px;
+      background: #7c3aed;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 800;
+    }
+
+    .button.secondary {
+      background: rgba(15, 23, 42, 0.72);
+      border: 1px solid rgba(148, 163, 184, 0.24);
+    }
+
+    footer {
+      color: #94a3b8;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="icon" aria-hidden="true">☾</div>
+    <h1>Moonlit Echoes</h1>
+    <p class="tagline">
+      Paid, ad-free iOS sleep sounds and white noise for rest, focus, meditation and calm routines.
+    </p>
+
+    <section class="features" aria-label="App features">
+      <div class="feature">50 calming sounds</div>
+      <div class="feature">Sleep timer</div>
+      <div class="feature">Favorites</div>
+      <div class="feature">No iOS ads</div>
+    </section>
+
+    <div class="actions">
+      <a class="button" href="https://play.google.com/store/apps/details?id=com.relaxingvoices.app">Google Play</a>
+      <a class="button secondary" href="privacy-ios.html">Privacy Policy</a>
+      <a class="button secondary" href="support.html">Support</a>
+    </div>
+
+    <footer>© 2026 Moonlit Echoes. All rights reserved.</footer>
+  </main>
+</body>
+
+</html>
